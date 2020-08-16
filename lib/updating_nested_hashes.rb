@@ -50,8 +50,7 @@ def add_characters
          {name: "Steven", age: "30", attitude: "confused"},
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
-      }, 
-      :additional_characters => [{name: "Prince Escalus"}, {name: "Apothecary"}]
+      }
    }
 
    # Write code below that does the following programmatically:
@@ -62,8 +61,8 @@ def add_characters
    #   - The second hash should have the :name key set to "Apothecary" 
    # Code your solution here:
 
-
-
+, 
+     epic_tragedy[:additional_characters] = [{name:"Prince Escalus"}, {name:"Apothecary"}]
 
 
 
